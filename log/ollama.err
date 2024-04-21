@@ -1,0 +1,11 @@
+time=2024-04-21T16:52:22.428Z level=INFO source=images.go:817 msg="total blobs: 10"
+time=2024-04-21T16:52:22.431Z level=INFO source=images.go:824 msg="total unused blobs removed: 0"
+time=2024-04-21T16:52:22.438Z level=INFO source=routes.go:1143 msg="Listening on 127.0.0.1:11434 (version 0.1.32)"
+time=2024-04-21T16:52:22.439Z level=INFO source=payload.go:28 msg="extracting embedded files" dir=/tmp/ollama1892349652/runners
+time=2024-04-21T16:52:27.086Z level=INFO source=payload.go:41 msg="Dynamic LLM libraries [cpu cpu_avx cpu_avx2 cuda_v11 rocm_v60002]"
+time=2024-04-21T16:52:27.086Z level=INFO source=gpu.go:121 msg="Detecting GPU type"
+time=2024-04-21T16:52:27.086Z level=INFO source=gpu.go:268 msg="Searching for GPU management library libcudart.so*"
+time=2024-04-21T16:52:27.088Z level=INFO source=gpu.go:314 msg="Discovered GPU libraries: [/tmp/ollama1892349652/runners/cuda_v11/libcudart.so.11.0 /usr/local/cuda/lib64/libcudart.so.12.1.105]"
+time=2024-04-21T16:52:27.217Z level=INFO source=gpu.go:126 msg="Nvidia GPU detected via cudart"
+time=2024-04-21T16:52:27.217Z level=INFO source=cpu_common.go:11 msg="CPU has AVX2"
+time=2024-04-21T16:52:27.642Z level=INFO source=gpu.go:202 msg="[cudart] CUDART CUDA Compute Capability detected: 8.6"
